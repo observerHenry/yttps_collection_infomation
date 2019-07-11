@@ -1,0 +1,746 @@
+2019-07-01 10:40:13.380  INFO 16128 --- [main] com.example.demo.IotApplication          : Starting IotApplication on DESKTOP-7TM6A69 with PID 16128 (D:\java\yttps_collection_infomation\target\classes started by c in D:\java\yttps_collection_infomation)
+2019-07-01 10:40:13.396  INFO 16128 --- [main] com.example.demo.IotApplication          : The following profiles are active: pro
+2019-07-01 10:40:15.111  INFO 16128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-01 10:40:15.111  INFO 16128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-07-01 10:40:15.114  INFO 16128 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\c\AppData\Local\Microsoft\WindowsApps;C:\Users\c\AppData\Roaming\npm;.]
+2019-07-01 10:40:15.194  INFO 16128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-01 10:40:18.043  INFO 16128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-01 10:40:18.061  INFO 16128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-07-01 10:40:18.069  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-01 10:40:18.073  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:40:18.075  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: handle belongs to groups: [[ResourceGroup{groupName='operation-handler', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler}]] 
+2019-07-01 10:40:18.076  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:40:18.076  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: handle belongs to groups: [[ResourceGroup{groupName='operation-handler', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler}]] 
+2019-07-01 10:40:18.076  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 10:40:18.076  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: links belongs to groups: [[ResourceGroup{groupName='web-mvc-endpoint-handler-mapping', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping}]] 
+2019-07-01 10:40:18.077  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.077  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-01 10:40:18.077  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.077  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-01 10:40:18.077  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 10:40:18.078  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: setStaff belongs to groups: [[ResourceGroup{groupName='staff-controller', position=0, controller=com.example.demo.web.StaffController}]] 
+2019-07-01 10:40:18.078  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 10:40:18.078  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getTip belongs to groups: [[ResourceGroup{groupName='get-zip', position=0, controller=com.example.demo.web.getZip}]] 
+2019-07-01 10:40:18.083  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/get-zip Description: get-zip Position: 0
+2019-07-01 10:40:18.084  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/operation-handler Description: operation-handler Position: 0
+2019-07-01 10:40:18.084  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/staff-controller Description: staff-controller Position: 0
+2019-07-01 10:40:18.084  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/web-mvc-endpoint-handler-mapping Description: web-mvc-endpoint-handler-mapping Position: 0
+2019-07-01 10:40:18.084  INFO 16128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2019-07-01 10:40:18.100  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:40:18.100  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:40:18.104  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:40:18.104  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:40:18.107  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.107  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.115  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.117  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.121  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.121  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.122  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.123  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.124  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.124  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.125  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.126  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.127  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.127  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.128  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.128  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.129  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.129  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:40:18.132  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.133  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.133  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.133  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.159  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.159  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.160  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.160  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:40:18.160  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-07-01 10:40:18.160  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-07-01 10:40:18.161  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-07-01 10:40:18.162  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-07-01 10:40:18.162  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.162  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.163  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.163  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.164  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.164  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.165  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.165  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.166  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.166  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.167  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.167  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.168  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.168  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.169  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.169  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.170  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.170  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:40:18.182  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.182  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.182  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.182  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /zip/create.com.example.demo.web.getZip.getTip.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /zip/create.com.example.demo.web.getZip.getTip.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.184  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 10:40:18.185  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 10:40:18.186  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Object(true)
+2019-07-01 10:40:18.187  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:40:18.188  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-07-01 10:40:18.188  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator/health.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.188  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator/health.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.192  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:40:18.192  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Object(true)
+2019-07-01 10:40:18.193  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:40:18.194  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-07-01 10:40:18.194  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator/info.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.194  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator/info.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.195  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:40:18.196  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:40:18.196  INFO 16128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-07-01 10:40:18.198  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.198  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.198  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.198  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.example.demo.model.util.Result(true)
+2019-07-01 10:40:18.198  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /staff/setStaff.com.example.demo.web.StaffController.setStaff.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.198  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /staff/setStaff.com.example.demo.web.StaffController.setStaff.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.199  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 10:40:18.200  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 10:40:18.203  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:40:18.203  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:40:18.203  INFO 16128 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:40:18.203  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:40:18.204  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:40:18.204  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:40:18.205  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>(true)
+2019-07-01 10:40:18.205  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>(true)
+2019-07-01 10:40:18.205  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:40:18.205  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:40:18.206  INFO 16128 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:40:18.206  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:40:18.206  INFO 16128 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator.org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.206  INFO 16128 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator.org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links.DefaultGenericTypeNamingStrategy
+2019-07-01 10:40:18.207  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 10:40:18.208  INFO 16128 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 10:40:18.244  INFO 16128 --- [main] com.example.demo.IotApplication          : Started IotApplication in 5.221 seconds (JVM running for 6.802)
+2019-07-01 10:40:18.759  INFO 16128 --- [RMI TCP Connection(1)-10.250.62.16] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-07-01 10:40:18.760  INFO 16128 --- [RMI TCP Connection(1)-10.250.62.16] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-07-01 10:40:18.989  INFO 16128 --- [RMI TCP Connection(3)-10.250.62.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-01 10:41:35.445  INFO 16128 --- [http-nio-9090-exec-1] com.example.demo.web.StaffController     : 开始文件操作
+2019-07-01 10:46:10.985  INFO 14872 --- [main] com.example.demo.IotApplication          : Starting IotApplication on DESKTOP-7TM6A69 with PID 14872 (D:\java\yttps_collection_infomation\target\classes started by c in D:\java\yttps_collection_infomation)
+2019-07-01 10:46:10.989  INFO 14872 --- [main] com.example.demo.IotApplication          : The following profiles are active: pro
+2019-07-01 10:46:12.590  INFO 14872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-01 10:46:12.590  INFO 14872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-07-01 10:46:12.593  INFO 14872 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\c\AppData\Local\Microsoft\WindowsApps;C:\Users\c\AppData\Roaming\npm;.]
+2019-07-01 10:46:12.681  INFO 14872 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-01 10:46:15.289  INFO 14872 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-01 10:46:15.303  INFO 14872 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-07-01 10:46:15.311  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-01 10:46:15.314  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:46:15.316  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: handle belongs to groups: [[ResourceGroup{groupName='operation-handler', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler}]] 
+2019-07-01 10:46:15.316  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:46:15.316  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: handle belongs to groups: [[ResourceGroup{groupName='operation-handler', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler}]] 
+2019-07-01 10:46:15.317  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 10:46:15.317  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: links belongs to groups: [[ResourceGroup{groupName='web-mvc-endpoint-handler-mapping', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping}]] 
+2019-07-01 10:46:15.317  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.317  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-01 10:46:15.318  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.318  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-01 10:46:15.318  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 10:46:15.318  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: setStaff belongs to groups: [[ResourceGroup{groupName='staff-controller', position=0, controller=com.example.demo.web.StaffController}]] 
+2019-07-01 10:46:15.318  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 10:46:15.318  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getTip belongs to groups: [[ResourceGroup{groupName='get-zip', position=0, controller=com.example.demo.web.getZip}]] 
+2019-07-01 10:46:15.323  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/staff-controller Description: staff-controller Position: 0
+2019-07-01 10:46:15.324  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/web-mvc-endpoint-handler-mapping Description: web-mvc-endpoint-handler-mapping Position: 0
+2019-07-01 10:46:15.324  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/operation-handler Description: operation-handler Position: 0
+2019-07-01 10:46:15.324  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2019-07-01 10:46:15.324  INFO 14872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/get-zip Description: get-zip Position: 0
+2019-07-01 10:46:15.340  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:46:15.340  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:46:15.344  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:46:15.344  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 10:46:15.347  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.348  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.354  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.356  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.358  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.359  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.360  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.360  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.361  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.361  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.362  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.363  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.363  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.364  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.364  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.365  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.365  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.366  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 10:46:15.369  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.370  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.370  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.370  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.394  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.394  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.394  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.394  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 10:46:15.395  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-07-01 10:46:15.395  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-07-01 10:46:15.396  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-07-01 10:46:15.396  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-07-01 10:46:15.396  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.396  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.397  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.397  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.398  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.398  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.399  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.399  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.400  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.400  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.401  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.401  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.402  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.402  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.402  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.403  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.403  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.404  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 10:46:15.413  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.413  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.413  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.413  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /zip/create.com.example.demo.web.getZip.getTip.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /zip/create.com.example.demo.web.getZip.getTip.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 10:46:15.415  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Object(true)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:46:15.417  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-07-01 10:46:15.418  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator/health.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.418  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator/health.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.422  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:46:15.422  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Object(true)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator/info.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.423  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator/info.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.425  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:46:15.425  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 10:46:15.425  INFO 14872 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-07-01 10:46:15.427  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.427  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.427  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.427  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.example.demo.model.util.Result(true)
+2019-07-01 10:46:15.427  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /staff/setStaff.com.example.demo.web.StaffController.setStaff.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.428  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /staff/setStaff.com.example.demo.web.StaffController.setStaff.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.428  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 10:46:15.429  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 10:46:15.432  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:46:15.432  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:46:15.432  INFO 14872 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:46:15.432  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:46:15.433  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:46:15.433  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:46:15.433  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>(true)
+2019-07-01 10:46:15.433  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>(true)
+2019-07-01 10:46:15.433  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:46:15.434  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 10:46:15.434  INFO 14872 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:46:15.434  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 10:46:15.434  INFO 14872 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator.org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.434  INFO 14872 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator.org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links.DefaultGenericTypeNamingStrategy
+2019-07-01 10:46:15.435  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 10:46:15.436  INFO 14872 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 10:46:15.468  INFO 14872 --- [main] com.example.demo.IotApplication          : Started IotApplication in 4.813 seconds (JVM running for 5.558)
+2019-07-01 10:46:15.882  INFO 14872 --- [RMI TCP Connection(1)-10.250.62.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-01 10:46:16.209  INFO 14872 --- [RMI TCP Connection(3)-10.250.62.16] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-07-01 10:46:16.210  INFO 14872 --- [RMI TCP Connection(3)-10.250.62.16] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-07-01 10:46:31.070 ERROR 14872 --- [http-nio-9090-exec-1] com.example.demo.config.WebMvcConfig     : 接口 [/zip/create] 出现异常，方法：com.example.demo.web.getZip.getTip，异常摘要：zip error from ZipUtils
+
+java.lang.RuntimeException: zip error from ZipUtils
+	at com.example.demo.web.getZip.toZip(getZip.java:88) ~[classes/:na]
+	at com.example.demo.web.getZip.getTip(getZip.java:106) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+Caused by: java.io.FileNotFoundException: \staffBatch\img (拒绝访问。)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_201]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_201]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_201]
+	at com.example.demo.web.getZip.toZip(getZip.java:78) ~[classes/:na]
+	... 65 common frames omitted
+
+2019-07-01 10:49:50.727 ERROR 14872 --- [http-nio-9090-exec-3] com.example.demo.config.WebMvcConfig     : 接口 [/zip/create] 出现异常，方法：com.example.demo.web.getZip.getTip，异常摘要：zip error from ZipUtils
+
+java.lang.RuntimeException: zip error from ZipUtils
+	at com.example.demo.web.getZip.toZip(getZip.java:88) ~[classes/:na]
+	at com.example.demo.web.getZip.getTip(getZip.java:106) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+Caused by: java.io.FileNotFoundException: \staffBatch\img (拒绝访问。)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_201]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_201]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_201]
+	at com.example.demo.web.getZip.toZip(getZip.java:78) ~[classes/:na]
+	... 65 common frames omitted
+
+2019-07-01 10:50:51.079 ERROR 14872 --- [http-nio-9090-exec-5] com.example.demo.config.WebMvcConfig     : 接口 [/zip/create] 出现异常，方法：com.example.demo.web.getZip.getTip，异常摘要：zip error from ZipUtils
+
+java.lang.RuntimeException: zip error from ZipUtils
+	at com.example.demo.web.getZip.toZip(getZip.java:88) ~[classes/:na]
+	at com.example.demo.web.getZip.getTip(getZip.java:106) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+Caused by: java.io.FileNotFoundException: \staffBatch\img (拒绝访问。)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_201]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_201]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_201]
+	at com.example.demo.web.getZip.toZip(getZip.java:78) ~[classes/:na]
+	... 65 common frames omitted
+
+2019-07-01 10:51:16.568 ERROR 14872 --- [http-nio-9090-exec-7] com.example.demo.config.WebMvcConfig     : 接口 [/zip/create] 出现异常，方法：com.example.demo.web.getZip.getTip，异常摘要：zip error from ZipUtils
+
+java.lang.RuntimeException: zip error from ZipUtils
+	at com.example.demo.web.getZip.toZip(getZip.java:88) ~[classes/:na]
+	at com.example.demo.web.getZip.getTip(getZip.java:106) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+Caused by: java.io.FileNotFoundException: \staffBatch\img (拒绝访问。)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_201]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_201]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_201]
+	at com.example.demo.web.getZip.toZip(getZip.java:78) ~[classes/:na]
+	... 65 common frames omitted
+
+2019-07-01 11:04:24.862  INFO 12020 --- [main] com.example.demo.IotApplication          : Starting IotApplication on DESKTOP-7TM6A69 with PID 12020 (D:\java\yttps_collection_infomation\target\classes started by c in D:\java\yttps_collection_infomation)
+2019-07-01 11:04:24.865  INFO 12020 --- [main] com.example.demo.IotApplication          : The following profiles are active: pro
+2019-07-01 11:04:26.462  INFO 12020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-01 11:04:26.462  INFO 12020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-07-01 11:04:26.465  INFO 12020 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\c\AppData\Local\Microsoft\WindowsApps;C:\Users\c\AppData\Roaming\npm;.]
+2019-07-01 11:04:26.555  INFO 12020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-01 11:04:29.160  INFO 12020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-01 11:04:29.172  INFO 12020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-07-01 11:04:29.181  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-01 11:04:29.184  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 11:04:29.186  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: handle belongs to groups: [[ResourceGroup{groupName='operation-handler', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler}]] 
+2019-07-01 11:04:29.187  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 11:04:29.187  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: handle belongs to groups: [[ResourceGroup{groupName='operation-handler', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler}]] 
+2019-07-01 11:04:29.187  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 11:04:29.187  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: links belongs to groups: [[ResourceGroup{groupName='web-mvc-endpoint-handler-mapping', position=0, controller=org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping}]] 
+2019-07-01 11:04:29.187  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.188  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-01 11:04:29.188  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.188  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-01 11:04:29.188  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 11:04:29.188  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: setStaff belongs to groups: [[ResourceGroup{groupName='staff-controller', position=0, controller=com.example.demo.web.StaffController}]] 
+2019-07-01 11:04:29.188  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 11:04:29.189  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getTip belongs to groups: [[ResourceGroup{groupName='get-zip', position=0, controller=com.example.demo.web.getZip}]] 
+2019-07-01 11:04:29.192  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/get-zip Description: get-zip Position: 0
+2019-07-01 11:04:29.193  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2019-07-01 11:04:29.194  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/staff-controller Description: staff-controller Position: 0
+2019-07-01 11:04:29.194  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/operation-handler Description: operation-handler Position: 0
+2019-07-01 11:04:29.194  INFO 12020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/web-mvc-endpoint-handler-mapping Description: web-mvc-endpoint-handler-mapping Position: 0
+2019-07-01 11:04:29.209  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 11:04:29.210  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 11:04:29.213  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 11:04:29.214  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-07-01 11:04:29.217  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.217  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.225  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.227  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.229  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.230  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.230  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.231  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.231  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.232  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.232  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.233  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.233  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.234  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.235  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.235  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.236  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.236  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-01 11:04:29.240  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.240  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.240  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.240  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.265  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.265  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.265  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.265  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-07-01 11:04:29.266  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-07-01 11:04:29.266  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-07-01 11:04:29.267  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-07-01 11:04:29.267  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-07-01 11:04:29.267  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.267  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.268  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.268  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.269  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.269  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.270  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.270  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.271  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.271  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.271  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.272  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.272  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.273  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.273  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.274  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.274  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.274  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-01 11:04:29.285  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.285  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.285  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.285  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.286  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.286  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.286  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.286  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.286  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /zip/create.com.example.demo.web.getZip.getTip.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.286  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /zip/create.com.example.demo.web.getZip.getTip.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.287  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 11:04:29.287  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getTip was get-zip
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Object(true)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 11:04:29.289  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-07-01 11:04:29.290  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator/health.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.290  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator/health.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.294  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 11:04:29.294  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 11:04:29.294  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.294  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.String>(false)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Object(true)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Object(true)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator/info.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.295  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator/info.org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.296  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 11:04:29.297  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method handle was operation-handler
+2019-07-01 11:04:29.297  INFO 12020 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2019-07-01 11:04:29.298  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.298  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.299  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.299  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.example.demo.model.util.Result(true)
+2019-07-01 11:04:29.299  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /staff/setStaff.com.example.demo.web.StaffController.setStaff.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.299  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /staff/setStaff.com.example.demo.web.StaffController.setStaff.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.300  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 11:04:29.300  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setStaff was staff-controller
+2019-07-01 11:04:29.303  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 11:04:29.304  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 11:04:29.304  INFO 12020 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 11:04:29.304  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 11:04:29.304  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 11:04:29.304  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.Map<java.lang.String,java.util.Map<java.lang.String,org.springframework.boot.actuate.endpoint.web.Link>>(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.boot.actuate.endpoint.web.Link(true)
+2019-07-01 11:04:29.305  INFO 12020 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /actuator.org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.306  INFO 12020 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /actuator.org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links.DefaultGenericTypeNamingStrategy
+2019-07-01 11:04:29.307  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 11:04:29.307  INFO 12020 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method links was web-mvc-endpoint-handler-mapping
+2019-07-01 11:04:29.339  INFO 12020 --- [main] com.example.demo.IotApplication          : Started IotApplication in 4.836 seconds (JVM running for 5.647)
+2019-07-01 11:04:29.966  INFO 12020 --- [RMI TCP Connection(3)-10.250.62.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-01 11:04:30.031  INFO 12020 --- [RMI TCP Connection(4)-10.250.62.16] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-07-01 11:04:30.033  INFO 12020 --- [RMI TCP Connection(4)-10.250.62.16] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
