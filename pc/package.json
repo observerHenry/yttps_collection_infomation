@@ -25,7 +25,7 @@
     "weixin-js-sdk": "^1.4.0-test"
   },
   "devDependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.19.0",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-env": "^1.6.0",
